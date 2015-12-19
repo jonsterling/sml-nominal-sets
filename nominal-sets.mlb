@@ -1,0 +1,23 @@
+local
+  $(SML_LIB)/basis/basis.mlb
+  category.sig
+  groupoid.sig
+  perm.sig
+  action.sig
+  action.fun
+  lambda.sml
+in
+  signature CATEGORY
+  signature GROUPOID
+  signature GROUP
+  signature PERM
+  signature ACTION
+  functor ProductActionF
+  functor SumActionF
+  functor AbstractionF
+  functor ConstActionF
+  functor IdActionF
+  functor AtomAction
+  functor UnitAction
+  structure Sum
+end
